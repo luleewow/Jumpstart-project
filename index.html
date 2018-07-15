@@ -1,14 +1,19 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8">
     <title>Jumpstart</title>
     <link rel="shortcut icon" type="img/png" href="./resources/favicon.png">
-    <link href="https://fonts.googleapis.com/css?family=Monoton|Open+Sans:400,600,700" rel="stylesheet">
     <link href="./resources/css/reset.css" type="text/css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Monoton|Open+Sans:400,600,700" rel="stylesheet">
+    <!-- // Bootstrap -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="http://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
-    <link href="./resources/css/style.css" type="text/css" rel="stylesheet">
+    <!--- Slick Carousel -->
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+    <link rel="stylesheet" type="text/css" href="./resources/css/style.css">
   </head>
   <body>
     <!-- Page Navigation -->
@@ -29,13 +34,111 @@
     </nav>
 
     <!-- Jumbotron -->
+    <div class="jumbotron jumbotron-bike">
+      <div class="container">
+        <h1>Get Going</h1>
+        <p>Jumpstart your startup with some crowdsourced seed money, or support one of our 300,000,000+ creators and get rewards.</p>
+        <a class="btn btn-primary btn-lg" href="#">Jump in</a>
+     </div>
+   </div>
+
+   <!-- Featured Project -->
+    <div id="project" class="container">
+      <h3>Featured project</h3>
+      <div class="row">
+        <div class="col-lg-6 col-md-12">
+          <div class="image-container">
+            <img class="img-responsive" src="./resources/images/featured-project.png" alt="House">
+          </div>
+        </div>
+
+        <div class="documentary col-lg-3 col-xs-6">
+          <h4>DeFrost: A Documentary</h4>
+          <p>by Leo De Firenze</p>
+          <p>DeFrost is a documentary about growing up in a little red house in a cold, harsh valley.
+             This is a story about my mother's childhood.
+             This film attempts to capture vignettes of her upbringing â€” her family, friends, pets,
+              and eventual depature from a freezing valley in Northern Italy â€” through beautiful
+               cinematography and narration.</p>
+        </div>
+
+        <div class="product col-lg-3 col-xs-6">
+          <h4>Product Categories</h4>
+          <ul>
+            <li>Art</li>
+            <li>Books</li>
+            <li>Crystals</li>
+            <li>Design</li>
+            <li>Doodles</li>
+            <li>Deedlybobs</li>
+            <li>Farming</li>
+            <li>Gadgets</li>
+            <li>Hoverboards</li>
+            <li>Jams, Jellies, Etc.</li>
+            <li>Magazines</li>
+            <li>Plants</li>
+            <li>Snakes & Snake Equipment</li>
+            <li>Tables</li>
+            <li>Ventriliquist Figures</li>
+            <li>Yoyos</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- Projects -->
+
+    <div class="container container-row">
+      <div class="row proj">
+        <h3>Projects</h3>
+      </div>
+      <div class="row">
+        <div class="col-sm-4 col-xs-12">
+          <div class="projects image-container">
+            <img src="./resources/images/project1-small.png" alt="">
+           </div>
+            <h4><strong>The Right Tights</strong></h4>
+            <p>by Riley Mae</p>
+            <p>These tights are 50 denier, beautifully constructed, hand-dyed, and guaranteed to last (no more ladders!).
+               Made with high quality, completely toxic-free materials. Custom colors available to all backers.</p>
+
+        </div>
+
+          <div class="col-sm-4 col-xs-12">
+            <div class="projects image-container">
+              <img src="./resources/images/project2-small.png" alt="">
+             </div>
+              <h4><strong>Peppermint Smart Home</strong></h4>
+              <p>by Brian McDonald</p>
+              <p>Instantly upgrade your home with technology that keeps your family and home safe.
+                 We've made Peppermint easy to use. Just talk to your phone and Peppermint will help you every step of the way.</p>
+
+          </div>
+
+          <div class="col-sm-4 col-xs-12">
+            <div class="projects image-container">
+              <img src="./resources/images/project3-small.png" alt="">
+             </div>
+              <h4><strong>American Streetlife</strong></h4>
+              <p>by Patrick Wallace</p>
+              <p>I've been traveling around the United States for the past two years.
+                 I've slept on hundreds of couches, more than a few benches, and captured my experiences in this 120 page photo album.</p>
+
+          </div>
+      </div>
+    </div>
+    <!-- Having Trouble Section -- >
+
 
 
     <script
       src="https://code.jquery.com/jquery-3.1.1.js"
       integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA="
       crossorigin="anonymous"></script>
-      <script type="text/javascript" src="http://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-      <script type="text/javascript" src"./js/main.js"></script>
-  </body>
-</html>
+
+      <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+      <script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+      <script type="text/javascript" src="slick/slick.min.js"></script>
+      <script type="text/javascript" src="./js/main.js"></script>
+   </body>
+ </html>
