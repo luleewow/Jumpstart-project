@@ -1,7 +1,16 @@
 $(document).ready(function(){
-  $('.your-class').slick({
+  $('.carousel').slick({
     autoplay: true,
-    autoplaySpeed: 2000,
-    arrows: false
+    autoplaySpeed: 3000,
+    arrows: false,
+    draggable: false,
+    pauseOnFocus: false,
+    pauseOnHover: false
+  });
+  // Hidding Navigation
+  var zero = 0;
+  $(window).scroll(function(){
+    $('nav').toggleClass('hide', $(window).scrollTop() > zero);
+    zero = $(window).scrollTop();
   });
 });
