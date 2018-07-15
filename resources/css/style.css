@@ -99,3 +99,22 @@ h3 {
 .proj h3 {
   padding-left: 1rem;
 }
+
+/* Having trouble section */
+
+#trouble {
+  text-align: center;
+  background-color: #f3f3f3;
+  padding-top: 5.2rem;
+  width: 100%;
+}
+
+#trouble p {
+  padding-top: 1.4rem;
+  max-width: 42rem;
+  margin: 0 auto;
+}
+
+.container strong {
+  font-size: 2.5rem;
+}
